@@ -13,6 +13,9 @@ public class UserData implements Serializable {
     private String password;
     private String email;
     private String avatar;
+    private String nickName;
+    private String phone;
+    private String location;
     private String socicalId;
     private String socialType;
     private int locked;

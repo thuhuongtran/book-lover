@@ -135,10 +135,15 @@ public class UserServiceImp implements UserService {
                             doc.append("username", rs.getString("username"));
                             doc.append("avatar", rs.getString("avatar"));
                             collectionComments.insertOne(doc);
-
-                            String insertquery = "INSERT INTO user_infor_ns (id_user) VALUES (?)";
+                            // insert user into sql db
+                            String insertquery = "INSERT INTO user_bl (`id`,`username`,`nickname`,`email`,`password`)" +
+                                    " VALUES (?,?,?,?,?)";
                             PreparedStatement state = connection.prepareStatement(insertquery);
                             state.setInt(1, rs.getInt("id"));
+                            state.setString(2,rs.getString("username"));
+                            state.setString(3,rs.getString("username"));
+                            state.setString(4,userData.getEmail());
+                            state.setString(5,userData.getPassword());
                             state.executeQuery();
                         }
 
@@ -270,7 +275,8 @@ public class UserServiceImp implements UserService {
     public UserResponse updateUserInfo(UserData userData, LoginSession loginSession) throws SQLException {
         Connection connection = HikariPool.getConnection();
         UserResponse response = new UserResponse();
-        logger.debug("updateUserInfo: {} - {} - {} - {} - {} - {} - {}", loginSession.getAccessToken(), userData.getUsername(), userData.getDescription(), userData.getRole(), userData.getLinkFB(), userData.getLinkIns(), userData.getLinkWS());
+        logger.debug("updateUserInfo: {} - {} - {} - {} - {} - {} - {}", loginSession.getAccessToken(), userData.getUsername(),
+                userData.getDescription(), userData.getRole(), userData.getLinkFB(), userData.getLinkIns(), userData.getLinkWS());
 
         //checktoken
         LoginSessionService loginSessionService = new LoginSessionServiceImp();
