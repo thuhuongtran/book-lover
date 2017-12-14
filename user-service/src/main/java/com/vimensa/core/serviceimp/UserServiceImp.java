@@ -92,7 +92,7 @@ public class UserServiceImp implements UserService {
         }
         return response;
     }
-
+//-----------------------------------------done - not checked yet
     @Override
     public UserResponse register(UserData userData) throws SQLException {
         Connection connection = HikariPool.getConnection();
@@ -135,10 +135,15 @@ public class UserServiceImp implements UserService {
                             doc.append("username", rs.getString("username"));
                             doc.append("avatar", rs.getString("avatar"));
                             collectionComments.insertOne(doc);
-
-                            String insertquery = "INSERT INTO user_infor_ns (id_user) VALUES (?)";
+                            // insert user into sql db
+                            String insertquery = "INSERT INTO user_bl (`id_user`,`username`,`nickname`,`email`,`password`)" +
+                                    " VALUES (?,?,?,?,?)";
                             PreparedStatement state = connection.prepareStatement(insertquery);
                             state.setInt(1, rs.getInt("id"));
+                            state.setString(2,rs.getString("username"));
+                            state.setString(3,rs.getString("username"));
+                            state.setString(4,userData.getEmail());
+                            state.setString(5,userData.getPassword());
                             state.executeQuery();
                         }
 
@@ -265,12 +270,13 @@ public class UserServiceImp implements UserService {
         }
         return response;
     }
-
+//--------------------------------------------------done - not checked yet
     @Override
     public UserResponse updateUserInfo(UserData userData, LoginSession loginSession) throws SQLException {
         Connection connection = HikariPool.getConnection();
         UserResponse response = new UserResponse();
-        logger.debug("updateUserInfo: {} - {} - {} - {} - {} - {} - {}", loginSession.getAccessToken(), userData.getUsername(), userData.getDescription(), userData.getRole(), userData.getLinkFB(), userData.getLinkIns(), userData.getLinkWS());
+        logger.debug("updateUserInfo: {} - {} - {} - {} - {} - {} - {}", loginSession.getAccessToken(), userData.getUsername(),
+                userData.getDescription(), userData.getRole(), userData.getLinkFB(), userData.getLinkIns(), userData.getLinkWS());
 
         //checktoken
         LoginSessionService loginSessionService = new LoginSessionServiceImp();
@@ -373,6 +379,8 @@ public class UserServiceImp implements UserService {
         return response;
     }
 
+    //----------------------------------------------update cover img -done- not checked yet
+
     @Override
     public SimpleResponse updateCoverImage(String coverimg, LoginSession loginSession) throws SQLException {
         Connection connection = HikariPool.getConnection();
@@ -407,7 +415,7 @@ public class UserServiceImp implements UserService {
         }
         return response;
     }
-
+//------------------------------------------------done - not checked yet
     @Override
     public UserResponse getUserInfo(LoginSession loginSession, int uid) throws SQLException {
         Connection connection = HikariPool.getConnection();
@@ -527,36 +535,6 @@ public class UserServiceImp implements UserService {
             connection.close();
         }
         return response;
-    }
-
-    @Override
-    public UserData loadUserDataByIdUserFB(String id) throws SQLException {
-        Connection connection = HikariPool.getConnection();
-        UserData userData = null;
-        try {
-            String query = "SELECT * FROM user WHERE socialId=?";
-            PreparedStatement st = connection.prepareStatement(query);
-            st.setString(1, id);
-            ResultSet rs = st.executeQuery();
-            if (rs.next()) {
-                userData = new UserData();
-                userData.setId(rs.getInt("id"));
-                userData.setUsername(rs.getString("username"));
-                userData.setEmail(rs.getString("email"));
-                userData.setAvatar(rs.getString("avatar"));
-                userData.setSocicalId(rs.getString("socialId"));
-                userData.setSocialType(rs.getString("socialType"));
-                userData.setLocked(rs.getInt("locked"));
-
-                return userData;
-            }
-            st.close();
-        } catch (Exception e) {
-            e.printStackTrace();
-        } finally {
-            connection.close();
-        }
-        return null;
     }
 
     @Override

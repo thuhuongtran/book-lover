@@ -37,6 +37,7 @@ public class LoginSessionServiceImp implements LoginSessionService {
         }
         return session;
     }
+    //------------------------add condition into query select appID
 
     @Override
     public LoginSessionResponse checkToken(LoginSession loginSession) throws SQLException {
@@ -47,11 +48,12 @@ public class LoginSessionServiceImp implements LoginSessionService {
         ResultSet resultSet = null;
         UserData userData = null;
         try {
-            String query = "SELECT * FROM token,account_login where accessToken=? and account_login.id=token.userId";
+            String query = "SELECT * FROM token,account_login where accessToken=? " +
+                    "and account_login.id=token.userId and token.appId='bl'";
             st = connection.prepareStatement(query);
             st.setString(1, loginSession.getAccessToken());
             resultSet = st.executeQuery();
-            if (resultSet.next()) {
+            if (resultSet!=null&&resultSet.next()) {
                 loginSession.setUserId(resultSet.getInt("userId"));
                 Calendar now = Calendar.getInstance();
                 Calendar time = Calendar.getInstance();
