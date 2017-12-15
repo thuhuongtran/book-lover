@@ -38,7 +38,7 @@
       "method":"POST"
     },
     {
-      "path":"/user",
+      "path":"/updateUserInfo",
       "handler":"com.vimensa.apis.handlers.UpdateUserHandler",
       "isPublic":true,
       "roles":[],

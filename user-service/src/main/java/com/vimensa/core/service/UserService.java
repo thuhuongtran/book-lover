@@ -14,8 +14,6 @@ public interface UserService {
 
     public UserData getUserByEmail(UserData userData) throws SQLException;
 
-    public UserData loadUserDataByIdUserFB(String id) throws SQLException;
-
     public UserResponse registerSocial(UserData userData, LoginSession loginSession) throws SQLException;
 
     public UserResponse registerGoogleSocial(UserData userData, LoginSession loginSession) throws SQLException;
