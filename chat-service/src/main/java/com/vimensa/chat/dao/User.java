@@ -3,6 +3,7 @@ package com.vimensa.chat.dao;
 import java.io.Serializable;
 
 public class User implements Serializable{
+    private static final long serialVersionUID = 1L;
     private int userID;
     private String userNick;
     private String userAvatar;

@@ -24,6 +24,13 @@ import java.util.Vector;
 public class MainController {
     private static Logger logger = LoggerFactory.getLogger(MainController.class);
 
+    @RequestMapping(value = {"", "/"}, method = RequestMethod.GET)
+    public String checkToken(HttpSession session,
+                             @RequestHeader(value = "at") String token) {
+        // call authentication to call /token from user-service
+        Authen authen = Authentication.checkToken(token, session);
+        return "";
+    }
 
     /*
      * find accounts - to add members in group
@@ -50,28 +57,28 @@ public class MainController {
             return "status:" + authen.getStatus();
         } else {*/
 
-            String word = reqWord.getWord(); // get input word
-            // get list of users from hazel or DB
-            CommonUserService userService = new CommonUserServiceImp();
-            Vector<User> userLi = null;
-            FindUser findUser = new FindUser();
-            try {
-                ChatServiceConnect.init(); // init
-                userLi = userService.getAllUsers();
-                findUser.setError(ErrorCode.SUCCESS);
-                logger.info(MainController.class.getName() + " findUserAccount get userLi successfully");
-            } catch (IOException e) {
-                findUser.setError(ErrorCode.INTERNAL_EXCEPTION);
-                logger.info(MainController.class.getName() + "findUserAccount io exception");
-                e.printStackTrace();
-            } catch (SQLException e) {
-                findUser.setError(ErrorCode.INTERNAL_EXCEPTION);
-                logger.info(MainController.class.getName() + "findUserAccount sq1 exception");
-                e.printStackTrace();
-            }
-            findUser = new FindUser(word, userLi);
-            return findUser.toJsonString(findUser.findUsers());
-       // }
+        String word = reqWord.getWord(); // get input word
+        // get list of users from hazel or DB
+        CommonUserService userService = new CommonUserServiceImp();
+        Vector<User> userLi = null;
+        FindUser findUser = new FindUser();
+        try {
+            ChatServiceConnect.init(); // init
+            userLi = userService.getAllUsers();
+            findUser.setError(ErrorCode.SUCCESS);
+            logger.info(MainController.class.getName() + " findUserAccount get userLi successfully");
+        } catch (IOException e) {
+            findUser.setError(ErrorCode.INTERNAL_EXCEPTION);
+            logger.info(MainController.class.getName() + "findUserAccount io exception");
+            e.printStackTrace();
+        } catch (SQLException e) {
+            findUser.setError(ErrorCode.INTERNAL_EXCEPTION);
+            logger.info(MainController.class.getName() + "findUserAccount sq1 exception");
+            e.printStackTrace();
+        }
+        findUser = new FindUser(word, userLi);
+        return findUser.toJsonString(findUser.findUsers());
+        // }
     }
 
     /*

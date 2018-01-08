@@ -12,9 +12,11 @@ import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 import org.apache.http.util.EntityUtils;
 
+import javax.servlet.http.HttpSession;
+
 
 public class Authentication {
-    public static Authen checkToken(String token) {
+    public static Authen checkToken(String token, HttpSession session) {
 
         CloseableHttpClient httpclient = HttpClients.createDefault();
         HttpGet request = new HttpGet(HttpConfig.AUTHEN_URL);
@@ -31,13 +33,17 @@ public class Authentication {
             int status = result.get("e").getAsInt();
             at = new Authen();
             if (status == ErrorCode.ACTIVE_TOKEN) {
-                at.setUserId(result.get("id").getAsInt());
+                int id = result.get("id").getAsInt();
+                at.setUserId(id);
                 //at.setUsername(result.get("un").getAsString());
+                session.setAttribute("userID",id);
                 at.setStatus(ErrorCode.ACTIVE_TOKEN);
             } else if (status == ErrorCode.UPDATE_TOKEN) {
-                at.setUserId(result.get("id").getAsInt());
+                int id = result.get("id").getAsInt();
+                at.setUserId(id);
                 at.setToken(result.get("at").getAsString());
                 //at.setUsername(result.get("un").getAsString());
+                session.setAttribute("userID",id);
                 at.setStatus(ErrorCode.UPDATE_TOKEN);
             } else if (status == ErrorCode.INVALID_TOKEN) {
                 at.setStatus(ErrorCode.INVALID_TOKEN);
