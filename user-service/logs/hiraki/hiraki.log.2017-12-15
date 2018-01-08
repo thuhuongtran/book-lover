@@ -1,0 +1,765 @@
+15 Dec 2017, 10:05:00,892 HikariPool-1 - configuration:
+15 Dec 2017, 10:05:00,895 allowPoolSuspension.............false
+15 Dec 2017, 10:05:00,896 autoCommit......................true
+15 Dec 2017, 10:05:00,896 catalog.........................none
+15 Dec 2017, 10:05:00,896 connectionInitSql...............none
+15 Dec 2017, 10:05:00,896 connectionTestQuery.............none
+15 Dec 2017, 10:05:00,896 connectionTimeout...............30000
+15 Dec 2017, 10:05:00,897 dataSource......................none
+15 Dec 2017, 10:05:00,897 dataSourceClassName.............none
+15 Dec 2017, 10:05:00,897 dataSourceJNDI..................none
+15 Dec 2017, 10:05:00,897 dataSourceProperties............{user=cuongn, password=<masked>, database=authen_vimensa}
+15 Dec 2017, 10:05:00,899 driverClassName.................none
+15 Dec 2017, 10:05:00,899 healthCheckProperties...........{}
+15 Dec 2017, 10:05:00,899 healthCheckRegistry.............none
+15 Dec 2017, 10:05:00,899 idleTimeout.....................600000
+15 Dec 2017, 10:05:00,899 initializationFailFast..........true
+15 Dec 2017, 10:05:00,899 initializationFailTimeout.......1
+15 Dec 2017, 10:05:00,900 isolateInternalQueries..........false
+15 Dec 2017, 10:05:00,900 jdbc4ConnectionTest.............false
+15 Dec 2017, 10:05:00,900 jdbcUrl........................."jdbc:mysql://171.244.27.229:3306/authen_vimensa"
+15 Dec 2017, 10:05:00,900 leakDetectionThreshold..........0
+15 Dec 2017, 10:05:00,900 maxLifetime.....................1800000
+15 Dec 2017, 10:05:00,900 maximumPoolSize.................20
+15 Dec 2017, 10:05:00,900 metricRegistry..................none
+15 Dec 2017, 10:05:00,900 metricsTrackerFactory...........none
+15 Dec 2017, 10:05:00,900 minimumIdle.....................20
+15 Dec 2017, 10:05:00,904 password........................<masked>
+15 Dec 2017, 10:05:00,904 poolName........................"HikariPool-1"
+15 Dec 2017, 10:05:00,904 readOnly........................false
+15 Dec 2017, 10:05:00,905 registerMbeans..................false
+15 Dec 2017, 10:05:00,905 scheduledExecutor...............none
+15 Dec 2017, 10:05:00,905 scheduledExecutorService........internal
+15 Dec 2017, 10:05:00,905 threadFactory...................internal
+15 Dec 2017, 10:05:00,905 transactionIsolation............default
+15 Dec 2017, 10:05:00,906 username........................none
+15 Dec 2017, 10:05:00,906 validationTimeout...............5000
+15 Dec 2017, 10:05:00,911 HikariPool-1 - Starting...
+15 Dec 2017, 10:05:02,441 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@2ef5e5e3
+15 Dec 2017, 10:05:02,443 HikariPool-1 - Start completed.
+15 Dec 2017, 10:05:02,544 HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+15 Dec 2017, 10:05:04,015 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@5bdcea17
+15 Dec 2017, 10:05:05,330 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@51248167
+15 Dec 2017, 10:05:07,185 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@14260527
+15 Dec 2017, 10:05:08,718 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@2896d9e6
+15 Dec 2017, 10:05:10,455 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@25785007
+15 Dec 2017, 10:05:12,184 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@5022d276
+15 Dec 2017, 10:05:13,547 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@7409fa68
+15 Dec 2017, 10:05:15,209 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@6ace54e6
+15 Dec 2017, 10:05:16,680 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@d51c9d0
+15 Dec 2017, 10:05:18,633 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@4b261b6e
+15 Dec 2017, 10:05:20,346 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@704762d8
+15 Dec 2017, 10:05:21,982 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@68366152
+15 Dec 2017, 10:05:23,560 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@6baa3acd
+15 Dec 2017, 10:05:25,505 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@10acb1bd
+15 Dec 2017, 10:05:27,544 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@5bb640d2
+15 Dec 2017, 10:05:29,070 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@518607
+15 Dec 2017, 10:05:30,421 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@3a97b892
+15 Dec 2017, 10:05:31,758 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@4fc3c724
+15 Dec 2017, 10:05:32,560 HikariPool-1 - Pool stats (total=19, active=0, idle=19, waiting=0)
+15 Dec 2017, 10:05:33,434 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@269aaede
+15 Dec 2017, 10:05:33,434 HikariPool-1 - After adding stats (total=20, active=0, idle=20, waiting=0)
+15 Dec 2017, 10:06:02,561 HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+15 Dec 2017, 10:06:32,577 HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+15 Dec 2017, 10:07:02,587 HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+15 Dec 2017, 10:07:32,588 HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+15 Dec 2017, 10:08:02,589 HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+15 Dec 2017, 10:08:32,589 HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+15 Dec 2017, 10:09:02,591 HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+15 Dec 2017, 10:09:32,592 HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+15 Dec 2017, 10:10:02,593 HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+15 Dec 2017, 10:10:32,595 HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+15 Dec 2017, 10:11:02,597 HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+15 Dec 2017, 10:11:32,598 HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+15 Dec 2017, 10:12:02,599 HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+15 Dec 2017, 10:12:32,600 HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+15 Dec 2017, 10:13:02,601 HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+15 Dec 2017, 10:13:32,601 HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+15 Dec 2017, 10:14:02,602 HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+15 Dec 2017, 10:14:32,603 HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+15 Dec 2017, 10:15:02,604 HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+15 Dec 2017, 10:15:32,619 HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+15 Dec 2017, 10:16:02,623 HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+15 Dec 2017, 10:16:32,624 HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+15 Dec 2017, 10:17:02,638 HikariPool-1 - Pool stats (total=20, active=1, idle=19, waiting=0)
+15 Dec 2017, 10:17:32,648 HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+15 Dec 2017, 10:18:02,651 HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+15 Dec 2017, 10:18:32,653 HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+15 Dec 2017, 10:19:02,654 HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+15 Dec 2017, 10:19:32,668 HikariPool-1 - Pool stats (total=20, active=1, idle=19, waiting=0)
+15 Dec 2017, 10:20:02,670 HikariPool-1 - Pool stats (total=20, active=1, idle=19, waiting=0)
+15 Dec 2017, 10:20:32,671 HikariPool-1 - Pool stats (total=20, active=1, idle=19, waiting=0)
+15 Dec 2017, 10:21:02,672 HikariPool-1 - Pool stats (total=20, active=1, idle=19, waiting=0)
+15 Dec 2017, 10:21:32,674 HikariPool-1 - Pool stats (total=20, active=1, idle=19, waiting=0)
+15 Dec 2017, 10:22:02,675 HikariPool-1 - Pool stats (total=20, active=1, idle=19, waiting=0)
+15 Dec 2017, 10:22:32,676 HikariPool-1 - Pool stats (total=20, active=1, idle=19, waiting=0)
+15 Dec 2017, 10:23:02,677 HikariPool-1 - Pool stats (total=20, active=3, idle=17, waiting=0)
+15 Dec 2017, 10:23:32,678 HikariPool-1 - Pool stats (total=20, active=1, idle=19, waiting=0)
+15 Dec 2017, 10:24:02,679 HikariPool-1 - Pool stats (total=20, active=1, idle=19, waiting=0)
+15 Dec 2017, 10:24:32,680 HikariPool-1 - Pool stats (total=20, active=1, idle=19, waiting=0)
+15 Dec 2017, 10:25:02,682 HikariPool-1 - Pool stats (total=20, active=1, idle=19, waiting=0)
+15 Dec 2017, 10:25:32,682 HikariPool-1 - Pool stats (total=20, active=1, idle=19, waiting=0)
+15 Dec 2017, 10:26:02,683 HikariPool-1 - Pool stats (total=20, active=1, idle=19, waiting=0)
+15 Dec 2017, 10:26:32,684 HikariPool-1 - Pool stats (total=20, active=1, idle=19, waiting=0)
+15 Dec 2017, 10:27:02,684 HikariPool-1 - Pool stats (total=20, active=1, idle=19, waiting=0)
+15 Dec 2017, 10:27:32,685 HikariPool-1 - Pool stats (total=20, active=1, idle=19, waiting=0)
+15 Dec 2017, 10:28:02,686 HikariPool-1 - Pool stats (total=20, active=1, idle=19, waiting=0)
+15 Dec 2017, 10:28:32,686 HikariPool-1 - Pool stats (total=20, active=1, idle=19, waiting=0)
+15 Dec 2017, 10:29:02,687 HikariPool-1 - Pool stats (total=20, active=1, idle=19, waiting=0)
+15 Dec 2017, 10:29:32,688 HikariPool-1 - Pool stats (total=20, active=1, idle=19, waiting=0)
+15 Dec 2017, 10:30:02,704 HikariPool-1 - Pool stats (total=20, active=1, idle=19, waiting=0)
+15 Dec 2017, 10:30:14,160 HikariPool-1 - configuration:
+15 Dec 2017, 10:30:14,164 allowPoolSuspension.............false
+15 Dec 2017, 10:30:14,164 autoCommit......................true
+15 Dec 2017, 10:30:14,164 catalog.........................none
+15 Dec 2017, 10:30:14,164 connectionInitSql...............none
+15 Dec 2017, 10:30:14,164 connectionTestQuery.............none
+15 Dec 2017, 10:30:14,164 connectionTimeout...............30000
+15 Dec 2017, 10:30:14,165 dataSource......................none
+15 Dec 2017, 10:30:14,165 dataSourceClassName.............none
+15 Dec 2017, 10:30:14,165 dataSourceJNDI..................none
+15 Dec 2017, 10:30:14,165 dataSourceProperties............{user=cuongn, password=<masked>, database=authen_vimensa}
+15 Dec 2017, 10:30:14,165 driverClassName.................none
+15 Dec 2017, 10:30:14,166 healthCheckProperties...........{}
+15 Dec 2017, 10:30:14,166 healthCheckRegistry.............none
+15 Dec 2017, 10:30:14,166 idleTimeout.....................600000
+15 Dec 2017, 10:30:14,166 initializationFailFast..........true
+15 Dec 2017, 10:30:14,166 initializationFailTimeout.......1
+15 Dec 2017, 10:30:14,166 isolateInternalQueries..........false
+15 Dec 2017, 10:30:14,166 jdbc4ConnectionTest.............false
+15 Dec 2017, 10:30:14,166 jdbcUrl........................."jdbc:mysql://171.244.27.229:3306/authen_vimensa"
+15 Dec 2017, 10:30:14,166 leakDetectionThreshold..........0
+15 Dec 2017, 10:30:14,167 maxLifetime.....................1800000
+15 Dec 2017, 10:30:14,167 maximumPoolSize.................20
+15 Dec 2017, 10:30:14,167 metricRegistry..................none
+15 Dec 2017, 10:30:14,167 metricsTrackerFactory...........none
+15 Dec 2017, 10:30:14,167 minimumIdle.....................20
+15 Dec 2017, 10:30:14,167 password........................<masked>
+15 Dec 2017, 10:30:14,167 poolName........................"HikariPool-1"
+15 Dec 2017, 10:30:14,167 readOnly........................false
+15 Dec 2017, 10:30:14,167 registerMbeans..................false
+15 Dec 2017, 10:30:14,168 scheduledExecutor...............none
+15 Dec 2017, 10:30:14,168 scheduledExecutorService........internal
+15 Dec 2017, 10:30:14,168 threadFactory...................internal
+15 Dec 2017, 10:30:14,168 transactionIsolation............default
+15 Dec 2017, 10:30:14,169 username........................none
+15 Dec 2017, 10:30:14,169 validationTimeout...............5000
+15 Dec 2017, 10:30:14,170 HikariPool-1 - Starting...
+15 Dec 2017, 10:30:16,052 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@2ef5e5e3
+15 Dec 2017, 10:30:16,055 HikariPool-1 - Start completed.
+15 Dec 2017, 10:30:16,164 HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+15 Dec 2017, 10:30:17,704 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@12e6f31b
+15 Dec 2017, 10:30:20,899 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@181e986b
+15 Dec 2017, 10:30:22,788 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@5d1c150c
+15 Dec 2017, 10:30:24,561 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@78c74b9f
+15 Dec 2017, 10:30:26,276 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@6c0b2b17
+15 Dec 2017, 10:30:27,835 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@3a2b3d
+15 Dec 2017, 10:30:29,406 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@3d33ea43
+15 Dec 2017, 10:30:31,512 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@7f6ad5c9
+15 Dec 2017, 10:30:33,840 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@4a8c1aa0
+15 Dec 2017, 10:30:35,347 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@1b3ea30f
+15 Dec 2017, 10:30:36,983 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@397d33d9
+15 Dec 2017, 10:30:39,038 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@10906da2
+15 Dec 2017, 10:30:40,720 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@3a632c0a
+15 Dec 2017, 10:30:42,018 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@54abc692
+15 Dec 2017, 10:30:44,235 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@498d425
+15 Dec 2017, 10:30:46,179 HikariPool-1 - Pool stats (total=16, active=0, idle=16, waiting=0)
+15 Dec 2017, 10:30:47,392 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@17f64469
+15 Dec 2017, 10:30:48,957 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@345639e1
+15 Dec 2017, 10:30:50,317 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@3ec3e6af
+15 Dec 2017, 10:30:51,810 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@7cb834ae
+15 Dec 2017, 10:30:51,810 HikariPool-1 - After adding stats (total=20, active=0, idle=20, waiting=0)
+15 Dec 2017, 10:31:16,180 HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+15 Dec 2017, 10:31:46,181 HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+15 Dec 2017, 10:32:16,182 HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+15 Dec 2017, 10:32:46,182 HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+15 Dec 2017, 10:33:16,184 HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+15 Dec 2017, 10:33:46,185 HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+15 Dec 2017, 10:34:16,186 HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+15 Dec 2017, 10:34:44,775 HikariPool-1 - configuration:
+15 Dec 2017, 10:34:44,778 allowPoolSuspension.............false
+15 Dec 2017, 10:34:44,778 autoCommit......................true
+15 Dec 2017, 10:34:44,779 catalog.........................none
+15 Dec 2017, 10:34:44,779 connectionInitSql...............none
+15 Dec 2017, 10:34:44,779 connectionTestQuery.............none
+15 Dec 2017, 10:34:44,779 connectionTimeout...............30000
+15 Dec 2017, 10:34:44,779 dataSource......................none
+15 Dec 2017, 10:34:44,779 dataSourceClassName.............none
+15 Dec 2017, 10:34:44,779 dataSourceJNDI..................none
+15 Dec 2017, 10:34:44,780 dataSourceProperties............{user=cuongn, password=<masked>, database=authen_vimensa}
+15 Dec 2017, 10:34:44,780 driverClassName.................none
+15 Dec 2017, 10:34:44,780 healthCheckProperties...........{}
+15 Dec 2017, 10:34:44,780 healthCheckRegistry.............none
+15 Dec 2017, 10:34:44,780 idleTimeout.....................600000
+15 Dec 2017, 10:34:44,780 initializationFailFast..........true
+15 Dec 2017, 10:34:44,780 initializationFailTimeout.......1
+15 Dec 2017, 10:34:44,780 isolateInternalQueries..........false
+15 Dec 2017, 10:34:44,780 jdbc4ConnectionTest.............false
+15 Dec 2017, 10:34:44,780 jdbcUrl........................."jdbc:mysql://171.244.27.229:3306/authen_vimensa"
+15 Dec 2017, 10:34:44,780 leakDetectionThreshold..........0
+15 Dec 2017, 10:34:44,782 maxLifetime.....................1800000
+15 Dec 2017, 10:34:44,782 maximumPoolSize.................20
+15 Dec 2017, 10:34:44,782 metricRegistry..................none
+15 Dec 2017, 10:34:44,782 metricsTrackerFactory...........none
+15 Dec 2017, 10:34:44,782 minimumIdle.....................20
+15 Dec 2017, 10:34:44,782 password........................<masked>
+15 Dec 2017, 10:34:44,782 poolName........................"HikariPool-1"
+15 Dec 2017, 10:34:44,782 readOnly........................false
+15 Dec 2017, 10:34:44,783 registerMbeans..................false
+15 Dec 2017, 10:34:44,783 scheduledExecutor...............none
+15 Dec 2017, 10:34:44,783 scheduledExecutorService........internal
+15 Dec 2017, 10:34:44,783 threadFactory...................internal
+15 Dec 2017, 10:34:44,783 transactionIsolation............default
+15 Dec 2017, 10:34:44,783 username........................none
+15 Dec 2017, 10:34:44,783 validationTimeout...............5000
+15 Dec 2017, 10:34:44,784 HikariPool-1 - Starting...
+15 Dec 2017, 10:34:48,132 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@2ef5e5e3
+15 Dec 2017, 10:34:48,133 HikariPool-1 - Start completed.
+15 Dec 2017, 10:34:48,234 HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+15 Dec 2017, 10:34:49,784 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@afc7718
+15 Dec 2017, 10:34:51,525 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@41c68
+15 Dec 2017, 10:34:53,234 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@4506820c
+15 Dec 2017, 10:34:54,787 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@2cab6903
+15 Dec 2017, 10:34:56,570 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@74892691
+15 Dec 2017, 10:34:57,877 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@54ce9334
+15 Dec 2017, 10:34:59,543 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@25297d43
+15 Dec 2017, 10:35:01,312 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@52bdeb94
+15 Dec 2017, 10:35:02,810 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@6f3df2fc
+15 Dec 2017, 10:35:04,524 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@4fca9b1c
+15 Dec 2017, 10:35:06,016 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@216724c3
+15 Dec 2017, 10:35:07,693 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@1c3b9a30
+15 Dec 2017, 10:35:09,176 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@1c112159
+15 Dec 2017, 10:35:10,742 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@7985bbc
+15 Dec 2017, 10:35:12,506 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@1f4126b0
+15 Dec 2017, 10:35:14,136 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@5f6bc572
+15 Dec 2017, 10:35:15,511 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@4a653c2f
+15 Dec 2017, 10:35:17,079 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@fe5cb64
+15 Dec 2017, 10:35:18,236 HikariPool-1 - Pool stats (total=19, active=0, idle=19, waiting=0)
+15 Dec 2017, 10:35:18,661 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@1907088e
+15 Dec 2017, 10:35:18,661 HikariPool-1 - After adding stats (total=20, active=0, idle=20, waiting=0)
+15 Dec 2017, 10:35:48,237 HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+15 Dec 2017, 10:36:18,238 HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+15 Dec 2017, 10:36:48,239 HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+15 Dec 2017, 10:37:18,240 HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+15 Dec 2017, 10:37:48,259 HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+15 Dec 2017, 10:38:17,638 HikariPool-1 - configuration:
+15 Dec 2017, 10:38:17,640 allowPoolSuspension.............false
+15 Dec 2017, 10:38:17,640 autoCommit......................true
+15 Dec 2017, 10:38:17,640 catalog.........................none
+15 Dec 2017, 10:38:17,640 connectionInitSql...............none
+15 Dec 2017, 10:38:17,641 connectionTestQuery.............none
+15 Dec 2017, 10:38:17,641 connectionTimeout...............30000
+15 Dec 2017, 10:38:17,641 dataSource......................none
+15 Dec 2017, 10:38:17,641 dataSourceClassName.............none
+15 Dec 2017, 10:38:17,641 dataSourceJNDI..................none
+15 Dec 2017, 10:38:17,642 dataSourceProperties............{user=cuongn, password=<masked>, database=authen_vimensa}
+15 Dec 2017, 10:38:17,642 driverClassName.................none
+15 Dec 2017, 10:38:17,643 healthCheckProperties...........{}
+15 Dec 2017, 10:38:17,643 healthCheckRegistry.............none
+15 Dec 2017, 10:38:17,643 idleTimeout.....................600000
+15 Dec 2017, 10:38:17,643 initializationFailFast..........true
+15 Dec 2017, 10:38:17,643 initializationFailTimeout.......1
+15 Dec 2017, 10:38:17,643 isolateInternalQueries..........false
+15 Dec 2017, 10:38:17,644 jdbc4ConnectionTest.............false
+15 Dec 2017, 10:38:17,644 jdbcUrl........................."jdbc:mysql://171.244.27.229:3306/authen_vimensa"
+15 Dec 2017, 10:38:17,644 leakDetectionThreshold..........0
+15 Dec 2017, 10:38:17,644 maxLifetime.....................1800000
+15 Dec 2017, 10:38:17,644 maximumPoolSize.................20
+15 Dec 2017, 10:38:17,644 metricRegistry..................none
+15 Dec 2017, 10:38:17,644 metricsTrackerFactory...........none
+15 Dec 2017, 10:38:17,644 minimumIdle.....................20
+15 Dec 2017, 10:38:17,644 password........................<masked>
+15 Dec 2017, 10:38:17,645 poolName........................"HikariPool-1"
+15 Dec 2017, 10:38:17,645 readOnly........................false
+15 Dec 2017, 10:38:17,645 registerMbeans..................false
+15 Dec 2017, 10:38:17,645 scheduledExecutor...............none
+15 Dec 2017, 10:38:17,645 scheduledExecutorService........internal
+15 Dec 2017, 10:38:17,645 threadFactory...................internal
+15 Dec 2017, 10:38:17,645 transactionIsolation............default
+15 Dec 2017, 10:38:17,645 username........................none
+15 Dec 2017, 10:38:17,645 validationTimeout...............5000
+15 Dec 2017, 10:38:17,646 HikariPool-1 - Starting...
+15 Dec 2017, 10:38:19,055 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@2ef5e5e3
+15 Dec 2017, 10:38:19,061 HikariPool-1 - Start completed.
+15 Dec 2017, 10:38:19,162 HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+15 Dec 2017, 10:38:20,626 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@2491a6cc
+15 Dec 2017, 10:38:22,434 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@2e69cdbc
+15 Dec 2017, 10:38:24,102 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@6b6b4615
+15 Dec 2017, 10:38:25,749 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@42e52a72
+15 Dec 2017, 10:38:27,135 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@5a4a293c
+15 Dec 2017, 10:38:28,841 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@3a2e1be4
+15 Dec 2017, 10:38:30,102 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@b44b95a
+15 Dec 2017, 10:38:31,897 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@6099a4fa
+15 Dec 2017, 10:38:33,489 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@6b11721c
+15 Dec 2017, 10:38:34,974 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@212ab5a1
+15 Dec 2017, 10:38:36,573 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@f0a46b7
+15 Dec 2017, 10:38:38,031 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@22998dd8
+15 Dec 2017, 10:38:39,590 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@42f89a05
+15 Dec 2017, 10:38:41,324 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@368bb846
+15 Dec 2017, 10:38:43,261 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@6be97fde
+15 Dec 2017, 10:38:45,251 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@5f0c836
+15 Dec 2017, 10:38:47,083 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@3de423f
+15 Dec 2017, 10:38:48,561 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@68fc938a
+15 Dec 2017, 10:38:49,164 HikariPool-1 - Pool stats (total=19, active=0, idle=19, waiting=0)
+15 Dec 2017, 10:38:51,392 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@48cb16c4
+15 Dec 2017, 10:38:51,392 HikariPool-1 - After adding stats (total=20, active=0, idle=20, waiting=0)
+15 Dec 2017, 10:39:19,165 HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+15 Dec 2017, 10:39:49,167 HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+15 Dec 2017, 10:40:19,169 HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+15 Dec 2017, 10:40:49,170 HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+15 Dec 2017, 10:41:19,171 HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+15 Dec 2017, 10:41:49,172 HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+15 Dec 2017, 10:42:19,174 HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+15 Dec 2017, 10:42:49,176 HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+15 Dec 2017, 10:43:19,177 HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+15 Dec 2017, 10:43:49,178 HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+15 Dec 2017, 10:44:16,418 HikariPool-1 - configuration:
+15 Dec 2017, 10:44:16,421 allowPoolSuspension.............false
+15 Dec 2017, 10:44:16,421 autoCommit......................true
+15 Dec 2017, 10:44:16,421 catalog.........................none
+15 Dec 2017, 10:44:16,421 connectionInitSql...............none
+15 Dec 2017, 10:44:16,421 connectionTestQuery.............none
+15 Dec 2017, 10:44:16,421 connectionTimeout...............30000
+15 Dec 2017, 10:44:16,421 dataSource......................none
+15 Dec 2017, 10:44:16,422 dataSourceClassName.............none
+15 Dec 2017, 10:44:16,422 dataSourceJNDI..................none
+15 Dec 2017, 10:44:16,422 dataSourceProperties............{user=cuongn, password=<masked>, database=authen_vimensa}
+15 Dec 2017, 10:44:16,422 driverClassName.................none
+15 Dec 2017, 10:44:16,422 healthCheckProperties...........{}
+15 Dec 2017, 10:44:16,423 healthCheckRegistry.............none
+15 Dec 2017, 10:44:16,423 idleTimeout.....................600000
+15 Dec 2017, 10:44:16,423 initializationFailFast..........true
+15 Dec 2017, 10:44:16,423 initializationFailTimeout.......1
+15 Dec 2017, 10:44:16,423 isolateInternalQueries..........false
+15 Dec 2017, 10:44:16,423 jdbc4ConnectionTest.............false
+15 Dec 2017, 10:44:16,423 jdbcUrl........................."jdbc:mysql://171.244.27.229:3306/authen_vimensa"
+15 Dec 2017, 10:44:16,423 leakDetectionThreshold..........0
+15 Dec 2017, 10:44:16,423 maxLifetime.....................1800000
+15 Dec 2017, 10:44:16,424 maximumPoolSize.................20
+15 Dec 2017, 10:44:16,424 metricRegistry..................none
+15 Dec 2017, 10:44:16,424 metricsTrackerFactory...........none
+15 Dec 2017, 10:44:16,424 minimumIdle.....................20
+15 Dec 2017, 10:44:16,424 password........................<masked>
+15 Dec 2017, 10:44:16,424 poolName........................"HikariPool-1"
+15 Dec 2017, 10:44:16,424 readOnly........................false
+15 Dec 2017, 10:44:16,424 registerMbeans..................false
+15 Dec 2017, 10:44:16,424 scheduledExecutor...............none
+15 Dec 2017, 10:44:16,425 scheduledExecutorService........internal
+15 Dec 2017, 10:44:16,425 threadFactory...................internal
+15 Dec 2017, 10:44:16,425 transactionIsolation............default
+15 Dec 2017, 10:44:16,425 username........................none
+15 Dec 2017, 10:44:16,425 validationTimeout...............5000
+15 Dec 2017, 10:44:16,426 HikariPool-1 - Starting...
+15 Dec 2017, 10:44:18,433 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@2ef5e5e3
+15 Dec 2017, 10:44:18,437 HikariPool-1 - Start completed.
+15 Dec 2017, 10:44:18,538 HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+15 Dec 2017, 10:44:20,049 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@5de459c0
+15 Dec 2017, 10:44:21,809 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@571c32b0
+15 Dec 2017, 10:44:23,921 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@121ea637
+15 Dec 2017, 10:44:25,822 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@6d4bc7ed
+15 Dec 2017, 10:44:27,751 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@23c65584
+15 Dec 2017, 10:44:29,218 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@15796afe
+15 Dec 2017, 10:44:31,049 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@72315978
+15 Dec 2017, 10:44:32,577 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@41f68c7c
+15 Dec 2017, 10:44:33,931 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@508d8bb3
+15 Dec 2017, 10:44:35,660 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@e7d25c6
+15 Dec 2017, 10:44:37,517 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@767f47e8
+15 Dec 2017, 10:44:39,288 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@39fa037
+15 Dec 2017, 10:44:41,074 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@3ff373e4
+15 Dec 2017, 10:44:42,694 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@584732c9
+15 Dec 2017, 10:44:44,516 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@540b6e2e
+15 Dec 2017, 10:44:46,117 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@2aebf280
+15 Dec 2017, 10:44:47,669 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@e23d86a
+15 Dec 2017, 10:44:48,539 HikariPool-1 - Pool stats (total=18, active=0, idle=18, waiting=0)
+15 Dec 2017, 10:44:49,333 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@6f13721d
+15 Dec 2017, 10:44:50,958 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@60e60bcf
+15 Dec 2017, 10:44:50,959 HikariPool-1 - After adding stats (total=20, active=0, idle=20, waiting=0)
+15 Dec 2017, 10:45:13,444 HikariPool-1 - configuration:
+15 Dec 2017, 10:45:13,446 allowPoolSuspension.............false
+15 Dec 2017, 10:45:13,447 autoCommit......................true
+15 Dec 2017, 10:45:13,447 catalog.........................none
+15 Dec 2017, 10:45:13,447 connectionInitSql...............none
+15 Dec 2017, 10:45:13,447 connectionTestQuery.............none
+15 Dec 2017, 10:45:13,447 connectionTimeout...............30000
+15 Dec 2017, 10:45:13,447 dataSource......................none
+15 Dec 2017, 10:45:13,447 dataSourceClassName.............none
+15 Dec 2017, 10:45:13,447 dataSourceJNDI..................none
+15 Dec 2017, 10:45:13,448 dataSourceProperties............{user=cuongn, password=<masked>, database=authen_vimensa}
+15 Dec 2017, 10:45:13,448 driverClassName.................none
+15 Dec 2017, 10:45:13,448 healthCheckProperties...........{}
+15 Dec 2017, 10:45:13,448 healthCheckRegistry.............none
+15 Dec 2017, 10:45:13,448 idleTimeout.....................600000
+15 Dec 2017, 10:45:13,448 initializationFailFast..........true
+15 Dec 2017, 10:45:13,448 initializationFailTimeout.......1
+15 Dec 2017, 10:45:13,449 isolateInternalQueries..........false
+15 Dec 2017, 10:45:13,449 jdbc4ConnectionTest.............false
+15 Dec 2017, 10:45:13,449 jdbcUrl........................."jdbc:mysql://171.244.27.229:3306/authen_vimensa"
+15 Dec 2017, 10:45:13,449 leakDetectionThreshold..........0
+15 Dec 2017, 10:45:13,449 maxLifetime.....................1800000
+15 Dec 2017, 10:45:13,449 maximumPoolSize.................20
+15 Dec 2017, 10:45:13,449 metricRegistry..................none
+15 Dec 2017, 10:45:13,449 metricsTrackerFactory...........none
+15 Dec 2017, 10:45:13,449 minimumIdle.....................20
+15 Dec 2017, 10:45:13,449 password........................<masked>
+15 Dec 2017, 10:45:13,450 poolName........................"HikariPool-1"
+15 Dec 2017, 10:45:13,450 readOnly........................false
+15 Dec 2017, 10:45:13,450 registerMbeans..................false
+15 Dec 2017, 10:45:13,450 scheduledExecutor...............none
+15 Dec 2017, 10:45:13,450 scheduledExecutorService........internal
+15 Dec 2017, 10:45:13,450 threadFactory...................internal
+15 Dec 2017, 10:45:13,450 transactionIsolation............default
+15 Dec 2017, 10:45:13,450 username........................none
+15 Dec 2017, 10:45:13,450 validationTimeout...............5000
+15 Dec 2017, 10:45:13,451 HikariPool-1 - Starting...
+15 Dec 2017, 10:45:15,232 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@2ef5e5e3
+15 Dec 2017, 10:45:15,235 HikariPool-1 - Start completed.
+15 Dec 2017, 10:45:15,336 HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+15 Dec 2017, 10:45:16,836 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@3c8870da
+15 Dec 2017, 10:45:18,343 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@36701baa
+15 Dec 2017, 10:45:20,112 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@73728300
+15 Dec 2017, 10:45:21,717 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@c033314
+15 Dec 2017, 10:45:23,676 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@42cb75fe
+15 Dec 2017, 10:45:25,200 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@74509b46
+15 Dec 2017, 10:45:26,456 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@135d7c4f
+15 Dec 2017, 10:45:28,261 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@65376a3
+15 Dec 2017, 10:45:29,784 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@1f2e8712
+15 Dec 2017, 10:45:31,276 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@6f54b51a
+15 Dec 2017, 10:45:32,763 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@171303bb
+15 Dec 2017, 10:45:34,766 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@ae89994
+15 Dec 2017, 10:45:36,556 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@611589cc
+15 Dec 2017, 10:45:37,926 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@2b231c91
+15 Dec 2017, 10:45:39,407 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@2422dc95
+15 Dec 2017, 10:45:41,041 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@6ac8d5bc
+15 Dec 2017, 10:45:42,503 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@275e6ac0
+15 Dec 2017, 10:45:44,464 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@142a2d2e
+15 Dec 2017, 10:45:45,338 HikariPool-1 - Pool stats (total=19, active=0, idle=19, waiting=0)
+15 Dec 2017, 10:45:45,808 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@265e9d4a
+15 Dec 2017, 10:45:45,809 HikariPool-1 - After adding stats (total=20, active=0, idle=20, waiting=0)
+15 Dec 2017, 10:46:15,339 HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+15 Dec 2017, 10:46:28,008 HikariPool-1 - configuration:
+15 Dec 2017, 10:46:28,011 allowPoolSuspension.............false
+15 Dec 2017, 10:46:28,011 autoCommit......................true
+15 Dec 2017, 10:46:28,011 catalog.........................none
+15 Dec 2017, 10:46:28,011 connectionInitSql...............none
+15 Dec 2017, 10:46:28,011 connectionTestQuery.............none
+15 Dec 2017, 10:46:28,011 connectionTimeout...............30000
+15 Dec 2017, 10:46:28,011 dataSource......................none
+15 Dec 2017, 10:46:28,011 dataSourceClassName.............none
+15 Dec 2017, 10:46:28,012 dataSourceJNDI..................none
+15 Dec 2017, 10:46:28,015 dataSourceProperties............{user=cuongn, password=<masked>, database=authen_vimensa}
+15 Dec 2017, 10:46:28,015 driverClassName.................none
+15 Dec 2017, 10:46:28,017 healthCheckProperties...........{}
+15 Dec 2017, 10:46:28,017 healthCheckRegistry.............none
+15 Dec 2017, 10:46:28,017 idleTimeout.....................600000
+15 Dec 2017, 10:46:28,017 initializationFailFast..........true
+15 Dec 2017, 10:46:28,018 initializationFailTimeout.......1
+15 Dec 2017, 10:46:28,018 isolateInternalQueries..........false
+15 Dec 2017, 10:46:28,018 jdbc4ConnectionTest.............false
+15 Dec 2017, 10:46:28,018 jdbcUrl........................."jdbc:mysql://171.244.27.229:3306/authen_vimensa"
+15 Dec 2017, 10:46:28,018 leakDetectionThreshold..........0
+15 Dec 2017, 10:46:28,018 maxLifetime.....................1800000
+15 Dec 2017, 10:46:28,018 maximumPoolSize.................20
+15 Dec 2017, 10:46:28,019 metricRegistry..................none
+15 Dec 2017, 10:46:28,019 metricsTrackerFactory...........none
+15 Dec 2017, 10:46:28,019 minimumIdle.....................20
+15 Dec 2017, 10:46:28,019 password........................<masked>
+15 Dec 2017, 10:46:28,019 poolName........................"HikariPool-1"
+15 Dec 2017, 10:46:28,019 readOnly........................false
+15 Dec 2017, 10:46:28,020 registerMbeans..................false
+15 Dec 2017, 10:46:28,020 scheduledExecutor...............none
+15 Dec 2017, 10:46:28,020 scheduledExecutorService........internal
+15 Dec 2017, 10:46:28,020 threadFactory...................internal
+15 Dec 2017, 10:46:28,020 transactionIsolation............default
+15 Dec 2017, 10:46:28,021 username........................none
+15 Dec 2017, 10:46:28,021 validationTimeout...............5000
+15 Dec 2017, 10:46:28,022 HikariPool-1 - Starting...
+15 Dec 2017, 10:46:31,092 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@2ef5e5e3
+15 Dec 2017, 10:46:31,094 HikariPool-1 - Start completed.
+15 Dec 2017, 10:46:31,195 HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+15 Dec 2017, 10:46:32,938 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@63581375
+15 Dec 2017, 10:46:34,858 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@69a07805
+15 Dec 2017, 10:46:36,611 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@2ca2eb55
+15 Dec 2017, 10:46:38,589 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@fc2860f
+15 Dec 2017, 10:46:40,059 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@1d448208
+15 Dec 2017, 10:46:41,818 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@77ceb1f5
+15 Dec 2017, 10:46:43,317 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@4c8d141a
+15 Dec 2017, 10:46:44,923 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@5764117a
+15 Dec 2017, 10:46:46,606 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@6e098d5c
+15 Dec 2017, 10:46:50,311 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@6ccad871
+15 Dec 2017, 10:46:51,677 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@48c32c36
+15 Dec 2017, 10:46:53,153 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@3f5b1b95
+15 Dec 2017, 10:46:55,899 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@1d1a024f
+15 Dec 2017, 10:46:57,851 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@27a948cd
+15 Dec 2017, 10:46:59,549 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@76da7292
+15 Dec 2017, 10:47:01,028 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@113a586f
+15 Dec 2017, 10:47:01,196 HikariPool-1 - Pool stats (total=17, active=0, idle=17, waiting=0)
+15 Dec 2017, 10:47:02,638 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@5c7f387d
+15 Dec 2017, 10:47:04,239 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@31fdec1f
+15 Dec 2017, 10:47:05,976 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@14965650
+15 Dec 2017, 10:47:05,976 HikariPool-1 - After adding stats (total=20, active=0, idle=20, waiting=0)
+15 Dec 2017, 10:47:31,197 HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+15 Dec 2017, 10:47:38,116 HikariPool-1 - configuration:
+15 Dec 2017, 10:47:38,119 allowPoolSuspension.............false
+15 Dec 2017, 10:47:38,119 autoCommit......................true
+15 Dec 2017, 10:47:38,119 catalog.........................none
+15 Dec 2017, 10:47:38,119 connectionInitSql...............none
+15 Dec 2017, 10:47:38,119 connectionTestQuery.............none
+15 Dec 2017, 10:47:38,120 connectionTimeout...............30000
+15 Dec 2017, 10:47:38,120 dataSource......................none
+15 Dec 2017, 10:47:38,120 dataSourceClassName.............none
+15 Dec 2017, 10:47:38,120 dataSourceJNDI..................none
+15 Dec 2017, 10:47:38,120 dataSourceProperties............{user=cuongn, password=<masked>, database=authen_vimensa}
+15 Dec 2017, 10:47:38,121 driverClassName.................none
+15 Dec 2017, 10:47:38,121 healthCheckProperties...........{}
+15 Dec 2017, 10:47:38,121 healthCheckRegistry.............none
+15 Dec 2017, 10:47:38,121 idleTimeout.....................600000
+15 Dec 2017, 10:47:38,121 initializationFailFast..........true
+15 Dec 2017, 10:47:38,121 initializationFailTimeout.......1
+15 Dec 2017, 10:47:38,121 isolateInternalQueries..........false
+15 Dec 2017, 10:47:38,121 jdbc4ConnectionTest.............false
+15 Dec 2017, 10:47:38,122 jdbcUrl........................."jdbc:mysql://171.244.27.229:3306/authen_vimensa"
+15 Dec 2017, 10:47:38,122 leakDetectionThreshold..........0
+15 Dec 2017, 10:47:38,122 maxLifetime.....................1800000
+15 Dec 2017, 10:47:38,122 maximumPoolSize.................20
+15 Dec 2017, 10:47:38,122 metricRegistry..................none
+15 Dec 2017, 10:47:38,122 metricsTrackerFactory...........none
+15 Dec 2017, 10:47:38,122 minimumIdle.....................20
+15 Dec 2017, 10:47:38,122 password........................<masked>
+15 Dec 2017, 10:47:38,123 poolName........................"HikariPool-1"
+15 Dec 2017, 10:47:38,123 readOnly........................false
+15 Dec 2017, 10:47:38,126 registerMbeans..................false
+15 Dec 2017, 10:47:38,126 scheduledExecutor...............none
+15 Dec 2017, 10:47:38,127 scheduledExecutorService........internal
+15 Dec 2017, 10:47:38,127 threadFactory...................internal
+15 Dec 2017, 10:47:38,127 transactionIsolation............default
+15 Dec 2017, 10:47:38,127 username........................none
+15 Dec 2017, 10:47:38,127 validationTimeout...............5000
+15 Dec 2017, 10:47:38,128 HikariPool-1 - Starting...
+15 Dec 2017, 10:47:39,674 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@2ef5e5e3
+15 Dec 2017, 10:47:39,675 HikariPool-1 - Start completed.
+15 Dec 2017, 10:47:39,776 HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+15 Dec 2017, 10:47:41,644 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@12e6f31b
+15 Dec 2017, 10:47:43,244 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@181e986b
+15 Dec 2017, 10:47:44,968 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@5d1c150c
+15 Dec 2017, 10:47:46,423 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@78c74b9f
+15 Dec 2017, 10:47:48,239 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@6c0b2b17
+15 Dec 2017, 10:47:50,058 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@3a2b3d
+15 Dec 2017, 10:47:51,893 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@3d33ea43
+15 Dec 2017, 10:47:53,645 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@7f6ad5c9
+15 Dec 2017, 10:47:55,594 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@4a8c1aa0
+15 Dec 2017, 10:47:57,047 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@1b3ea30f
+15 Dec 2017, 10:48:03,400 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@397d33d9
+15 Dec 2017, 10:48:04,817 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@10906da2
+15 Dec 2017, 10:48:06,462 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@3a632c0a
+15 Dec 2017, 10:48:08,246 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@54abc692
+15 Dec 2017, 10:48:09,777 HikariPool-1 - Pool stats (total=15, active=0, idle=15, waiting=0)
+15 Dec 2017, 10:48:09,952 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@498d425
+15 Dec 2017, 10:48:11,436 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@17f64469
+15 Dec 2017, 10:48:13,102 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@345639e1
+15 Dec 2017, 10:48:14,459 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@3ec3e6af
+15 Dec 2017, 10:48:16,198 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@7cb834ae
+15 Dec 2017, 10:48:16,198 HikariPool-1 - After adding stats (total=20, active=0, idle=20, waiting=0)
+15 Dec 2017, 10:48:39,778 HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+15 Dec 2017, 10:49:09,779 HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+15 Dec 2017, 10:49:39,780 HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+15 Dec 2017, 10:50:09,782 HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+15 Dec 2017, 10:50:39,784 HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+15 Dec 2017, 10:51:09,785 HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+15 Dec 2017, 10:51:39,786 HikariPool-1 - Pool stats (total=20, active=1, idle=19, waiting=0)
+15 Dec 2017, 10:52:09,787 HikariPool-1 - Pool stats (total=20, active=1, idle=19, waiting=0)
+15 Dec 2017, 10:52:39,788 HikariPool-1 - Pool stats (total=20, active=1, idle=19, waiting=0)
+15 Dec 2017, 10:53:09,789 HikariPool-1 - Pool stats (total=20, active=1, idle=19, waiting=0)
+15 Dec 2017, 10:53:39,790 HikariPool-1 - Pool stats (total=20, active=1, idle=19, waiting=0)
+15 Dec 2017, 10:54:09,790 HikariPool-1 - Pool stats (total=20, active=1, idle=19, waiting=0)
+15 Dec 2017, 10:54:39,790 HikariPool-1 - Pool stats (total=20, active=1, idle=19, waiting=0)
+15 Dec 2017, 10:55:09,792 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 10:55:39,793 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 10:56:09,794 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 10:56:39,795 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 10:57:09,795 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 10:57:39,796 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 10:58:09,797 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 10:58:39,799 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 10:59:09,800 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 10:59:39,802 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:00:09,802 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:00:39,803 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:01:09,804 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:01:39,805 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:02:09,806 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:02:39,807 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:03:09,808 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:03:39,809 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:04:09,810 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:04:39,811 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:05:09,812 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:05:39,813 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:06:09,814 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:06:39,816 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:07:09,817 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:07:39,818 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:08:09,819 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:08:39,820 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:09:09,821 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:09:39,824 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:10:09,825 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:10:39,825 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:11:09,826 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:11:39,827 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:12:09,829 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:12:39,830 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:13:09,831 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:13:39,832 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:14:09,833 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:14:39,834 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:15:09,835 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:15:39,836 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:16:09,837 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:16:39,839 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:17:08,068 HikariPool-1 - Closing connection org.mariadb.jdbc.MariaDbConnection@181e986b: (connection has passed maxLifetime)
+15 Dec 2017, 11:17:09,790 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@2c460550
+15 Dec 2017, 11:17:09,839 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:17:16,777 HikariPool-1 - Closing connection org.mariadb.jdbc.MariaDbConnection@3a2b3d: (connection has passed maxLifetime)
+15 Dec 2017, 11:17:18,781 HikariPool-1 - Closing connection org.mariadb.jdbc.MariaDbConnection@78c74b9f: (connection has passed maxLifetime)
+15 Dec 2017, 11:17:19,812 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@26be6e20
+15 Dec 2017, 11:17:21,504 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@63bcf493
+15 Dec 2017, 11:17:21,504 HikariPool-1 - After adding stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:17:27,948 HikariPool-1 - Closing connection org.mariadb.jdbc.MariaDbConnection@54abc692: (connection has passed maxLifetime)
+15 Dec 2017, 11:17:29,461 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@368b8736
+15 Dec 2017, 11:17:31,042 HikariPool-1 - Closing connection org.mariadb.jdbc.MariaDbConnection@4a8c1aa0: (connection has passed maxLifetime)
+15 Dec 2017, 11:17:32,770 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@3c73ec46
+15 Dec 2017, 11:17:33,926 HikariPool-1 - Closing connection org.mariadb.jdbc.MariaDbConnection@397d33d9: (connection has passed maxLifetime)
+15 Dec 2017, 11:17:35,410 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@797165ac
+15 Dec 2017, 11:17:36,740 HikariPool-1 - Closing connection org.mariadb.jdbc.MariaDbConnection@5d1c150c: (connection has passed maxLifetime)
+15 Dec 2017, 11:17:37,197 HikariPool-1 - Closing connection org.mariadb.jdbc.MariaDbConnection@3d33ea43: (connection has passed maxLifetime)
+15 Dec 2017, 11:17:38,500 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@1329ef83
+15 Dec 2017, 11:17:40,154 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@48421aa6
+15 Dec 2017, 11:17:40,154 HikariPool-1 - After adding stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:17:40,169 HikariPool-1 - Closing connection org.mariadb.jdbc.MariaDbConnection@6c0b2b17: (connection has passed maxLifetime)
+15 Dec 2017, 11:17:42,382 HikariPool-1 - Closing connection org.mariadb.jdbc.MariaDbConnection@10906da2: (connection has passed maxLifetime)
+15 Dec 2017, 11:17:42,427 HikariPool-1 - Pool stats (total=18, active=2, idle=16, waiting=0)
+15 Dec 2017, 11:17:42,485 HikariPool-1 - Closing connection org.mariadb.jdbc.MariaDbConnection@3a632c0a: (connection has passed maxLifetime)
+15 Dec 2017, 11:17:43,726 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@6bf0ce34
+15 Dec 2017, 11:17:45,179 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@195e9ae3
+15 Dec 2017, 11:17:45,179 HikariPool-1 - After adding stats (total=19, active=2, idle=17, waiting=0)
+15 Dec 2017, 11:17:46,736 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@45d72bbc
+15 Dec 2017, 11:17:46,736 HikariPool-1 - After adding stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:17:50,166 HikariPool-1 - Closing connection org.mariadb.jdbc.MariaDbConnection@1b3ea30f: (connection has passed maxLifetime)
+15 Dec 2017, 11:17:50,257 HikariPool-1 - Closing connection org.mariadb.jdbc.MariaDbConnection@7f6ad5c9: (connection has passed maxLifetime)
+15 Dec 2017, 11:17:51,627 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@1d989e8a
+15 Dec 2017, 11:17:52,883 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@70f46263
+15 Dec 2017, 11:17:52,883 HikariPool-1 - After adding stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:17:56,851 HikariPool-1 - Closing connection org.mariadb.jdbc.MariaDbConnection@7cb834ae: (connection has passed maxLifetime)
+15 Dec 2017, 11:17:58,828 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@1d10671c
+15 Dec 2017, 11:18:03,041 HikariPool-1 - Closing connection org.mariadb.jdbc.MariaDbConnection@498d425: (connection has passed maxLifetime)
+15 Dec 2017, 11:18:04,805 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@616625c9
+15 Dec 2017, 11:18:05,721 HikariPool-1 - Closing connection org.mariadb.jdbc.MariaDbConnection@345639e1: (connection has passed maxLifetime)
+15 Dec 2017, 11:18:08,989 HikariPool-1 - Closing connection org.mariadb.jdbc.MariaDbConnection@3ec3e6af: (connection has passed maxLifetime)
+15 Dec 2017, 11:18:11,184 HikariPool-1 - Closing connection org.mariadb.jdbc.MariaDbConnection@17f64469: (connection has passed maxLifetime)
+15 Dec 2017, 11:18:11,696 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@38539ba1
+15 Dec 2017, 11:18:12,428 HikariPool-1 - Pool stats (total=18, active=2, idle=16, waiting=0)
+15 Dec 2017, 11:18:13,373 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@6b6711b2
+15 Dec 2017, 11:18:13,373 HikariPool-1 - After adding stats (total=19, active=2, idle=17, waiting=0)
+15 Dec 2017, 11:18:15,007 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@75d1b345
+15 Dec 2017, 11:18:15,007 HikariPool-1 - After adding stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:18:42,429 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:19:12,429 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:19:42,430 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:20:12,431 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:20:42,432 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:21:12,433 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:21:42,435 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:22:12,436 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:22:42,438 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:23:12,439 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:23:42,440 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:24:12,441 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:24:42,442 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:25:12,443 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:25:42,444 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:26:12,446 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:26:42,446 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:27:12,447 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:27:42,448 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:28:12,449 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:28:42,451 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:29:12,452 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:29:42,454 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:30:12,455 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:30:42,456 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:31:12,457 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:31:42,457 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:32:12,459 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:32:42,459 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:33:12,460 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:33:42,462 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:34:12,464 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:34:42,465 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:35:12,465 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:35:42,466 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:36:12,467 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:36:42,468 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:37:12,469 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:37:42,470 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:38:12,470 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:38:42,471 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:39:12,472 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:39:42,472 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:40:12,474 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:40:42,476 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:41:12,477 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:41:42,478 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:42:12,479 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:42:42,479 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:43:12,481 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:43:42,482 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:44:12,482 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:44:42,483 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:45:12,484 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:45:42,486 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:46:12,487 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:46:38,537 HikariPool-1 - Closing connection org.mariadb.jdbc.MariaDbConnection@2c460550: (connection has passed maxLifetime)
+15 Dec 2017, 11:46:40,008 HikariPool-1 - Closing connection org.mariadb.jdbc.MariaDbConnection@63bcf493: (connection has passed maxLifetime)
+15 Dec 2017, 11:46:40,105 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@1cfd0caf
+15 Dec 2017, 11:46:42,370 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@160567df
+15 Dec 2017, 11:46:42,371 HikariPool-1 - After adding stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:46:42,487 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:46:54,970 HikariPool-1 - Closing connection org.mariadb.jdbc.MariaDbConnection@3c73ec46: (connection has passed maxLifetime)
+15 Dec 2017, 11:46:56,781 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@55397ed9
+15 Dec 2017, 11:47:00,484 HikariPool-1 - Closing connection org.mariadb.jdbc.MariaDbConnection@368b8736: (connection has passed maxLifetime)
+15 Dec 2017, 11:47:02,611 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@5fc115a9
+15 Dec 2017, 11:47:04,276 HikariPool-1 - Closing connection org.mariadb.jdbc.MariaDbConnection@1329ef83: (connection has passed maxLifetime)
+15 Dec 2017, 11:47:06,042 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@1ac38035
+15 Dec 2017, 11:47:09,061 HikariPool-1 - Closing connection org.mariadb.jdbc.MariaDbConnection@195e9ae3: (connection has passed maxLifetime)
+15 Dec 2017, 11:47:11,010 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@492ea02
+15 Dec 2017, 11:47:12,394 HikariPool-1 - Closing connection org.mariadb.jdbc.MariaDbConnection@797165ac: (connection has passed maxLifetime)
+15 Dec 2017, 11:47:12,488 HikariPool-1 - Pool stats (total=19, active=2, idle=17, waiting=0)
+15 Dec 2017, 11:47:13,419 HikariPool-1 - Closing connection org.mariadb.jdbc.MariaDbConnection@26be6e20: (connection has passed maxLifetime)
+15 Dec 2017, 11:47:14,388 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@2b13be64
+15 Dec 2017, 11:47:15,873 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@7ca88af2
+15 Dec 2017, 11:47:15,873 HikariPool-1 - After adding stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:47:20,382 HikariPool-1 - Closing connection org.mariadb.jdbc.MariaDbConnection@45d72bbc: (connection has passed maxLifetime)
+15 Dec 2017, 11:47:22,029 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@7aec7f7a
+15 Dec 2017, 11:47:27,019 HikariPool-1 - Closing connection org.mariadb.jdbc.MariaDbConnection@1d10671c: (connection has passed maxLifetime)
+15 Dec 2017, 11:47:28,689 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@69bd48df
+15 Dec 2017, 11:47:29,171 HikariPool-1 - Closing connection org.mariadb.jdbc.MariaDbConnection@70f46263: (connection has passed maxLifetime)
+15 Dec 2017, 11:47:30,706 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@5feb2b12
+15 Dec 2017, 11:47:33,583 HikariPool-1 - Closing connection org.mariadb.jdbc.MariaDbConnection@48421aa6: (connection has passed maxLifetime)
+15 Dec 2017, 11:47:34,753 HikariPool-1 - Closing connection org.mariadb.jdbc.MariaDbConnection@616625c9: (connection has passed maxLifetime)
+15 Dec 2017, 11:47:35,415 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@67acc507
+15 Dec 2017, 11:47:37,160 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@7ea26127
+15 Dec 2017, 11:47:37,161 HikariPool-1 - After adding stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:47:38,195 HikariPool-1 - Closing connection org.mariadb.jdbc.MariaDbConnection@38539ba1: (connection has passed maxLifetime)
+15 Dec 2017, 11:47:39,572 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@7d5a359c
+15 Dec 2017, 11:47:40,632 HikariPool-1 - Closing connection org.mariadb.jdbc.MariaDbConnection@6bf0ce34: (connection has passed maxLifetime)
+15 Dec 2017, 11:47:42,368 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@7bef229e
+15 Dec 2017, 11:47:42,489 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:47:49,301 HikariPool-1 - Closing connection org.mariadb.jdbc.MariaDbConnection@1d989e8a: (connection has passed maxLifetime)
+15 Dec 2017, 11:47:51,037 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@6dfb337a
+15 Dec 2017, 11:47:53,955 HikariPool-1 - Closing connection org.mariadb.jdbc.MariaDbConnection@6b6711b2: (connection has passed maxLifetime)
+15 Dec 2017, 11:47:55,317 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@6703580a
+15 Dec 2017, 11:48:10,988 HikariPool-1 - Closing connection org.mariadb.jdbc.MariaDbConnection@75d1b345: (connection has passed maxLifetime)
+15 Dec 2017, 11:48:12,489 HikariPool-1 - Pool stats (total=19, active=2, idle=17, waiting=0)
+15 Dec 2017, 11:48:12,642 HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@47e3950f
+15 Dec 2017, 11:48:42,490 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+15 Dec 2017, 11:49:12,492 HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)

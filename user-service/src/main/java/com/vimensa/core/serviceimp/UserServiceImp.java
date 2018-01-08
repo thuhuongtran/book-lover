@@ -30,7 +30,7 @@ import static java.sql.Types.INTEGER;
 
 public class UserServiceImp implements UserService {
     private static Logger logger = LoggerFactory.getLogger(UserServiceImp.class.getName());
-
+//-------------checked -done
     @Override
     public UserResponse login(UserData userData, LoginSession loginSession) throws SQLException {
         Connection connection = HikariPool.getConnection();
@@ -92,7 +92,7 @@ public class UserServiceImp implements UserService {
         }
         return response;
     }
-    //-----------------------------------------done - not checked yet
+    //-----------------------------------------done - checked - done
     @Override
     public UserResponse register(UserData userData) throws SQLException {
         Connection connection = HikariPool.getConnection();
@@ -416,7 +416,7 @@ public class UserServiceImp implements UserService {
         }
         return response;
     }
-    //------------------------------------------------done - not checked yet
+    //------------------------------------------------done - checked
     @Override
     public UserResponse getUserInfo(LoginSession loginSession, int uid) throws SQLException {
         Connection connection = HikariPool.getConnection();

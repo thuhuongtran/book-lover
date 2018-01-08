@@ -1,86 +1,27 @@
-15 Dec 2017, 10:05:00,712 Logger is initialed
-15 Dec 2017, 10:05:00,826 APIConfig is initialed
-15 Dec 2017, 10:05:02,443 HikariPool is initialed
-15 Dec 2017, 10:05:03,315 Your Vert.x application is started!
-15 Dec 2017, 10:17:01,406 REGISTER : john-booklver - john@mail - {}
-15 Dec 2017, 10:17:04,075 REGISTER Error: (conn:572772) Unknown column 'username' in 'field list'
-15 Dec 2017, 10:21:57,858 REGISTER : john-booklver - john@mail - {}
-15 Dec 2017, 10:22:18,763 REGISTER : john-booklver - john@mail.com - {}
-15 Dec 2017, 10:22:19,179 REGISTER Error: (conn:572773) Unknown column 'username' in 'field list'
-15 Dec 2017, 10:22:41,909 REGISTER : john-booklver - john@mail.com - {}
-15 Dec 2017, 10:22:57,257 REGISTER : john-booklver - john333@mail.com - {}
-15 Dec 2017, 10:22:57,684 REGISTER Error: (conn:572773) Unknown column 'username' in 'field list'
-15 Dec 2017, 10:22:59,957 REGISTER : john-booklver - john333@mail.com - {}
-15 Dec 2017, 10:23:01,718 REGISTER : john-booklver - john333@mail.com - {}
-15 Dec 2017, 10:23:02,641 REGISTER : john-booklver - john333@mail.com - {}
-15 Dec 2017, 10:23:03,256 REGISTER : john-booklver - john333@mail.com - {}
-15 Dec 2017, 10:23:03,443 REGISTER : john-booklver - john333@mail.com - {}
-15 Dec 2017, 10:23:03,644 REGISTER : john-booklver - john333@mail.com - {}
-15 Dec 2017, 10:23:03,799 REGISTER : john-booklver - john333@mail.com - {}
-15 Dec 2017, 10:23:03,974 REGISTER : john-booklver - john333@mail.com - {}
-15 Dec 2017, 10:23:04,124 REGISTER : john-booklver - john333@mail.com - {}
-15 Dec 2017, 10:26:58,872 REGISTER : jane - jane@mail.com - {}
-15 Dec 2017, 10:26:59,316 REGISTER Error: (conn:572773) Unknown column 'username' in 'field list'
-15 Dec 2017, 10:30:14,064 Logger is initialed
-15 Dec 2017, 10:30:14,110 APIConfig is initialed
-15 Dec 2017, 10:30:16,055 HikariPool is initialed
-15 Dec 2017, 10:30:16,592 Your Vert.x application is started!
-15 Dec 2017, 10:30:40,021 REGISTER : smith - smith@mail.com - {}
-15 Dec 2017, 10:30:42,735 REGISTER Error: (conn:573016) Unknown column 'username' in 'field list'
-15 Dec 2017, 10:34:44,680 Logger is initialed
-15 Dec 2017, 10:34:44,736 APIConfig is initialed
-15 Dec 2017, 10:34:48,133 HikariPool is initialed
-15 Dec 2017, 10:34:48,688 Your Vert.x application is started!
-15 Dec 2017, 10:35:35,509 REGISTER : smith333 - smith333@mail.com - {}
-15 Dec 2017, 10:35:38,850 start to insert into user_bl
-15 Dec 2017, 10:35:38,887 REGISTER Error: (conn:573065) Unknown column 'username' in 'field list'
-15 Dec 2017, 10:38:17,543 Logger is initialed
-15 Dec 2017, 10:38:17,597 APIConfig is initialed
-15 Dec 2017, 10:38:19,062 HikariPool is initialed
-15 Dec 2017, 10:38:19,624 Your Vert.x application is started!
-15 Dec 2017, 10:38:34,958 REGISTER : smith332 - smith332@mail.com - {}
-15 Dec 2017, 10:38:37,434 start to insert into user_bl
-15 Dec 2017, 10:38:37,434 id: 311
-15 Dec 2017, 10:38:37,435 username: smith332
-15 Dec 2017, 10:38:37,435 email: smith332@mail.com
-15 Dec 2017, 10:38:37,435 pass: f379d93e33ed7c92e09c9a9a259aaaa26d6fa0683bcfddbcb30ae59e07484915
-15 Dec 2017, 10:38:37,470 REGISTER Error: (conn:573112) Unknown column 'username' in 'field list'
-15 Dec 2017, 10:44:05,193 REGISTER : smith331 - smith331@mail.com - {}
-15 Dec 2017, 10:44:06,151 start to insert into user_bl
-15 Dec 2017, 10:44:06,152 id: 313
-15 Dec 2017, 10:44:06,152 username: smith331
-15 Dec 2017, 10:44:06,152 email: smith331@mail.com
-15 Dec 2017, 10:44:06,152 pass: e9ddb85725170d80bc5c5decf360864019511360798c86b5bdc9c5e44a622cc3
-15 Dec 2017, 10:44:06,179 REGISTER Error: (conn:573112) Unknown column 'username' in 'field list'
-15 Dec 2017, 10:44:16,326 Logger is initialed
-15 Dec 2017, 10:44:16,377 APIConfig is initialed
-15 Dec 2017, 10:44:18,438 HikariPool is initialed
-15 Dec 2017, 10:44:19,013 Your Vert.x application is started!
-15 Dec 2017, 10:44:27,428 REGISTER : smith331 - smith331@mail.com - {}
-15 Dec 2017, 10:44:42,524 REGISTER : smith330 - smith330@mail.com - {}
-15 Dec 2017, 10:44:44,915 start to insert into user_bl
-15 Dec 2017, 10:44:44,920 REGISTER Error: (conn:573181) Parameter at position 3 is not set
-15 Dec 2017, 10:45:13,349 Logger is initialed
-15 Dec 2017, 10:45:13,403 APIConfig is initialed
-15 Dec 2017, 10:45:15,235 HikariPool is initialed
-15 Dec 2017, 10:45:15,786 Your Vert.x application is started!
-15 Dec 2017, 10:45:36,092 REGISTER : smith220 - smith220@mail.com - {}
-15 Dec 2017, 10:45:38,551 start to insert into user_bl
-15 Dec 2017, 10:45:38,558 REGISTER Error: (conn:573208) Parameter at position 5 is not set
-15 Dec 2017, 10:46:27,913 Logger is initialed
-15 Dec 2017, 10:46:27,968 APIConfig is initialed
-15 Dec 2017, 10:46:31,094 HikariPool is initialed
-15 Dec 2017, 10:46:31,653 Your Vert.x application is started!
-15 Dec 2017, 10:46:48,529 REGISTER : smith221 - smith221@mail.com - {}
-15 Dec 2017, 10:46:51,055 start to insert into user_bl
-15 Dec 2017, 10:46:51,084 REGISTER Error: (conn:573243) Unknown column 'password' in 'field list'
-15 Dec 2017, 10:47:38,017 Logger is initialed
-15 Dec 2017, 10:47:38,074 APIConfig is initialed
-15 Dec 2017, 10:47:39,676 HikariPool is initialed
-15 Dec 2017, 10:47:40,211 Your Vert.x application is started!
-15 Dec 2017, 10:48:02,995 REGISTER : smith222 - smith222@mail.com - {}
-15 Dec 2017, 10:48:05,530 start to insert into user_bl
-15 Dec 2017, 10:48:05,578 insert into user_bl successfully.
-15 Dec 2017, 10:51:35,899 LOGIN : null
-15 Dec 2017, 10:54:43,165 LOGIN : null
-15 Dec 2017, 10:55:37,024 LOGIN : smith222@mail.com
+08 Jan 2018, 09:37:41,516 Logger is initialed
+08 Jan 2018, 09:37:41,707 APIConfig is initialed
+08 Jan 2018, 09:37:42,932 HikariPool is initialed
+08 Jan 2018, 09:37:43,953 Your Vert.x application is started!
+08 Jan 2018, 09:45:32,311 updateUserInfo: null - no idea - test update userinfo - 1 - 1 - 1 - 1
+08 Jan 2018, 09:45:52,009 updateUserInfo: null - no idea - test update userinfo - 1 - 1 - 1 - 1
+08 Jan 2018, 09:46:29,792 LOGIN : smith222@mail.com
+08 Jan 2018, 09:46:38,166 updateUserInfo: null - no idea - test update userinfo - 1 - 1 - 1 - 1
+08 Jan 2018, 09:46:51,041 updateUserInfo: null - no idea - test update userinfo - 1 - 1 - 1 - 1
+08 Jan 2018, 09:49:13,723 updateUserInfo: null - no idea - test update userinfo - 1 - 1 - 1 - 1
+08 Jan 2018, 10:01:51,672 updateUserInfo: ebd4ce716a4bdb52ef4221312a456e0f2ed529cb18746f0563682c8c66742b0a - no idea - test update userinfo - 1 - 1 - 1 - 1
+08 Jan 2018, 10:01:51,915 updateUserInfo Error: (conn:876890) Unknown column 'user_bl.id_user' in 'where clause'
+08 Jan 2018, 10:08:35,322 updateUserInfo: ebd4ce716a4bdb52ef4221312a456e0f2ed529cb18746f0563682c8c66742b0a - no idea - test update userinfo - 1 - 2 - 1 - 1
+08 Jan 2018, 10:08:35,440 updateUserInfo Error: (conn:877154) Unknown column 'user_bl.id_user' in 'where clause'
+08 Jan 2018, 10:18:39,105 getUserInfo Error: (conn:877158) Column 'email' in field list is ambiguous
+08 Jan 2018, 10:22:28,889 Logger is initialed
+08 Jan 2018, 10:22:28,953 APIConfig is initialed
+08 Jan 2018, 10:22:30,423 HikariPool is initialed
+08 Jan 2018, 10:22:31,000 Your Vert.x application is started!
+08 Jan 2018, 10:23:14,580 updateUserInfo: ebd4ce716a4bdb52ef4221312a456e0f2ed529cb18746f0563682c8c66742b0a - no idea - test update userinfo - 1 - 2 - 1 - 1
+08 Jan 2018, 10:23:14,671 updateUserInfo Error: (conn:877284) Unknown column 'user_bl.id_user' in 'where clause'
+08 Jan 2018, 10:26:16,463 Logger is initialed
+08 Jan 2018, 10:26:16,518 APIConfig is initialed
+08 Jan 2018, 10:26:20,028 HikariPool is initialed
+08 Jan 2018, 10:26:20,596 Your Vert.x application is started!
+08 Jan 2018, 10:27:01,028 updateUserInfo: ebd4ce716a4bdb52ef4221312a456e0f2ed529cb18746f0563682c8c66742b0a - no idea - test update userinfo - 1 - 2 - 1 - 1
+08 Jan 2018, 10:27:01,266 updateUserInfo Error: (conn:877331) Unknown column 'user_bl.id_user' in 'where clause'
